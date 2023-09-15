@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="jugador.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="propiedad.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="definicions.h" />
+    <ClInclude Include="jugador.h" />
+    <ClInclude Include="propiedad.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
